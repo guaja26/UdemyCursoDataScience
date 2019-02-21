@@ -1,4 +1,16 @@
 -Python
--Anaconda
+-Anaconda navigator
 -Pip (https://pypi.org/project/pip/#files)
--pip install pandas (paquete para Machine learning)
+
+Paquetes
+
+- Pandas: Lectura de dataset, estadísticas básicas. pip install pandas (pandas.pydata.org)
+- NumPy: similar a MatLab, calculos matemáticos (NumPy.org). pip Install NumPy.
+- matplotlib: Generar plot de alta calidad en 2D. pip install matplotlib (matplotlib.org)
+- Ipython: Entorno para realizar cálculo interactivos (IDE), soporta código richmedia, implantación de modelos. pip install Ipython (Ipython.org)
+- scikit-learn: Modelos predictivos, distintos métodos para aplicarlos. Permite medir la eficiencia del modelo construido (scikit-learn.org)
+
+IDEs que se pueden utilizar para desarrollo
+IDLE (con python), formato para realizar informes es pobre, no sirve.
+Ipython Notebook. Jupyter (con anaconda navigator). 
+Spider (con anaconda navigator). Similar a R. 

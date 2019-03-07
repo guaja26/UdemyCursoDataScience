@@ -1,6 +1,7 @@
 -Python
 -Anaconda navigator
 -Pip (https://pypi.org/project/pip/#files)
+-Git Hub Desktop y/o Gitkraken
 
 Paquetes
 
@@ -14,3 +15,6 @@ IDEs que se pueden utilizar para desarrollo
 IDLE (con python), formato para realizar informes es pobre, no sirve.
 Ipython Notebook. Jupyter (con anaconda navigator). 
 Spider (con anaconda navigator). Similar a R. 
+
+Repositorio Datasets
+https://github.com/joanby/python-ml-course

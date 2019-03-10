@@ -1,5 +1,5 @@
 -Python
--Anaconda navigator
+-Anaconda navigator (anaconda cloud; usuario->marcelogt
 -Pip (https://pypi.org/project/pip/#files)
 -Git Hub Desktop y/o Gitkraken
 
@@ -18,3 +18,24 @@ Spider (con anaconda navigator). Similar a R.
 
 Repositorio Datasets
 https://github.com/joanby/python-ml-course
+
+*** Pandas ***
+import pandas as pd
+* read_csv
+	-Declaración de variable: data=pd.read_csv(%archivo.csv%)
+	-Revisión primeras filas: data.head()
+	-lectura por parámetros: read_csv(filepath="",sep=""(por defecto coma), dtype= (defecto none), header=0 (por defecto 0), names)
+		*dtype: define el tipo de dato de cada columna: dtype={"nombreCol": numpy.tipo)
+		*header: define la fila que será la cabecera
+		*names: Nombres de columnas: names={"col1","Col2"}
+		*skiprows: se salta un número determinado de filas. Comienza a leer desde la fila ingresada.
+		*index_col: 
+		*skip_blank_lines: Valor booleano,se salta los espacios en blanco, no usa NaN.
+		*na_filter: Detecta los marcadores de valores que faltan dentro del dataset. string vacio, valores en blanco. Elimina la fila con uno de esos valores.
+data2.columns.values: Muestra las columnas del dataset.
+
+*Open: Lee linea por linea, para eviar procesar ficheros completos. Va liberando las lineas procesadas a medida que avanza la lectura.
+(sección 4 clase 23)
+
+*Dataset Url -> http://winterolympicsmedals.com/medals.csv
+	-pd.read_csv(http://winterolympicsmedals.com/medals.csv) //determinar que el archivo es CSV desde ulr por el protocolo http.
